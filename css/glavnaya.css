@@ -1,0 +1,216 @@
+#Head {
+margin:0 auto 170px auto;
+width: 100%;
+position: absolute;
+}
+
+#pustoi {
+margin:auto;
+width: 100%;	
+}
+
+#obertka {
+background-color: #ffffff;
+height:200px;
+min-width: 1024px;
+width: 100%;
+position: absolute;
+top: 0;
+left:0;	
+z-index:2;
+}
+
+#Name {
+position: absolute;
+top: 10px;
+margin-left: -512px;
+min-width: 1024px;
+left: 50%;
+}
+
+#slog1 {
+font-family: 'Courier new', arial;
+position: absolute;
+left: 180px;
+top: 20px;
+font-size: 30px;	
+font-style: italic;
+}
+
+#slog2 {
+font-family: 'Courier new', arial;
+position: absolute;	
+font-size: 30px;
+top: 75px;
+left: 685px;
+font-style: italic;
+}
+
+#Navi {
+width: 100%;
+height: 30px;
+float: left;
+position: absolute;
+z-index: 3;
+top: 165px;
+}
+
+ul {
+display: table;
+width: auto;
+margin: 0 auto; 
+list-style: none;
+font-size: 27px;
+padding: 0;
+font-family: 'Micra', arial;
+}
+
+li.nav {
+float: left; 
+overflow: hidden;
+text-align: center;
+font-weight: bold;
+position: relative;  
+cursor: default;
+padding-left: 40px;
+padding-right: 40px; 
+}
+
+li a {
+text-decoration: #363B4D;	
+}
+
+li a:active {
+color:#363B4D;	
+}
+
+li a:visited {
+color:#363B4D;	
+}
+
+Body {
+background-image: url(../image/Metal.png);	
+}
+
+#text {
+background-image: url(../image/background13.jpg);
+width: 930px; 
+margin: 230px auto 50px -485px;
+padding-left: 20px;
+padding-right: 20px;
+position: absolute;
+left: 50%;
+}
+
+p.text {
+font-size: 20px;
+text-indent: 25px;
+text-align: justify;
+font-family: 'Open Sans', arial; 	
+}
+
+#Footer {
+width: 100%;	
+height: 50px;
+position: absolute;
+}
+
+#Zaglavie {
+text-indent: 70px;	
+color: #C0080E;
+font-family: 'Comic Sans MC', arial;
+font-style: italic;
+text-decoration:underline;
+}
+
+span.bold {
+font-weight: bold;	
+} 
+
+#MiniZaglavie {
+text-indent: 40px;
+color: #B5280E;	
+}
+
+#Home {
+position: absolute;
+top:11px;
+left:7px;
+z-index:5;	
+}
+
+#img1 {
+clear: both;
+margin-right:250px;	
+}
+
+#img2 {
+clear: both;
+margin-left:250px;	
+}
+
+#StarWars {
+float: left;	
+}
+
+#Man {
+float: right;	
+}
+
+#Mob {
+float: left;	
+}
+
+#top {
+position: fixed;
+bottom: 20px;
+right: 10px;	
+}
+
+#panel {
+position: fixed;
+top: 65px;
+left: 6px; 
+width: 40px;
+height: 50px;
+font: 14px Arial;
+text-align: left; 
+padding: 0; 
+-webkit-transition-duration: 0.3s;
+-moz-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-border-radius: 0 5px 5px 0;
+-moz-border-radius: 0 5px 5px 0;
+border-radius: 0 5px 5px 0;
+z-index:5;
+}
+
+#hidden_panel {
+position: fixed; 
+top: 0; 
+background: rgba(153,162,181, 0.4);
+left: -190px; 
+width: 180px;
+height: 95px; 
+padding: 10px 3px; 
+text-align: left; 
+-webkit-transition-duration: 0.3s;
+-moz-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-border-radius: 0 5px 5px 0;
+-moz-border-radius: 0 5px 5px 0;
+border-radius: 0 5px 5px 0;
+}
+	
+#panel:hover {
+left: 190px;
+}
+
+#panel:hover #hidden_panel {
+left: 0;
+}
+
+a.menu p {
+font-size: 10px;
+color: #F52D07;
+}
